@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "text-editor": {
+      "command": "uvx",
+      "args": [
+        "mcp-text-editor"
+      ]
+    },
+    "think-tool": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ]
+    },
+    "wikipedia": {
+      "command": "uvx",
+      "args": [
+        "wikipedia-mcp"
+      ]
+    },
+    "mcp-pandoc": {
+      "command": "uvx",
+      "args": [
+        "mcp-pandoc"
+      ]
+    },
+    "brave-search": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-brave-search"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "BSAeg_qDW9qbTZ6zqgnzXoP_BDkaCaZ"
+      }
+    },
+    "mcp-for-research": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@mzxrai/mcp-webresearch@latest"
+      ]
+    }
+  }
+}

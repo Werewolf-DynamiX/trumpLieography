@@ -1,0 +1,29 @@
+from: markdown
+to: pdf
+pdf-engine: xelatex
+
+variables:
+  mainfont: "Georgia"
+  sansfont: "Arial"
+  monofont: "Consolas"
+  geometry:
+    - top=1in
+    - bottom=1in
+    - left=1in
+    - right=1in
+  fontsize: 12pt
+  linestretch: 1.25
+  documentclass: book
+  classoption:
+    - oneside
+    - openany
+  header-includes:
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyhead[LO,LE]{The Definitive Fictional Lieography}
+    - \fancyhead[RO,RE]{Donald J. Trump}
+    - \fancyfoot[C]{\thepage}
+
+toc: true
+toc-depth: 2
+number-sections: false

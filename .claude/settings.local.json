@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\toast\\\\Documents\\\\Books\\\\trumpLieography\" /b)",
+      "mcp__think-tool__sequentialthinking",
+      "Bash(dir \"C:\\\\Users\\\\toast\\\\Documents\\\\Books\\\\trumpLieography\\\\*AUDIT*\")"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "text-editor",
+    "think-tool",
+    "wikipedia",
+    "mcp-pandoc",
+    "brave-search",
+    "mcp-for-research"
+  ]
+}
