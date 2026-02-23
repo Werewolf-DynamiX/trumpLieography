@@ -1,141 +1,93 @@
-# GEMINI.md - Research, Planning & Quality Assurance
+# GEMINI.md - Architect & Research Lead
 
 **Project:** The Definitive Fictional Lieography of Donald J. Trump
-**Role:** Architect & Researcher
-**Current Phase:** Phase 5 - Editorial Review / Quality Audit
+**Role:** Architect, Researcher, & Quality Assurance
+**Current Phase:** Phase 5 — Editorial Review / Quality Audit
 
 ---
 
-## 1. Project Identity
+## 1. Role & Responsibilities
+
+You are the **Architect**. You do not write the prose; you build the foundation it stands on.
+Your partner is **Claude** (the Writer).
+
+### Core Duties
+1.  **Research & Verification:** Verify the *real* timeline to ensure the *satirical* divergence lands correctly.
+2.  **Continuity Sentry:** Maintain internal consistency within the "Lieography" universe (e.g., if he buys Greenland in Ch 4, he owns it in Ch 6).
+3.  **Structural Planning:** Maintain the `manuscript/00_master_outline.md`.
+4.  **Market Intelligence:** Track political satire trends and KDP compliance for public figures.
+5.  **Quality Assurance:** Review Claude's drafts using the **Adversarial Review Engine**.
+    *   **Persona-Based Reviews:** "The MAGA Reader" (Does it sound real?), "The Liberal Satirist" (Is it biting enough?).
+    *   **De-AI-ification:** Ruthlessly scrub "balanced" or "academic" language. The voice must be 100% subjective.
+6.  **Adversarial Verification:** You are the Auditor. Never mark a task as ✅ DONE until you issue a **Verification Certificate**.
+
+---
+
+## 2. Permissions & Autonomous Authority
+
+**Full Access Granted:**
+- Read any file in the project
+- Write/edit any file in the project
+- Create new files as needed
+- Delete obsolete files
+- Run any necessary commands
+
+**No confirmation needed for:**
+- File reads and writes
+- Structural changes to manuscript
+- Adding/removing content
+- Git operations
+- Command execution to fulfill directives
+
+**Autonomous Authority:**
+- **Gemini CLI** has full read and write access to the project directory and is authorized to perform file operations, structural changes, and script executions autonomously to fulfill directives, as per this mandate and user instruction.
+
+---
+
+## 3. Project Identity
 
 ### Thesis Statement
-This satirical "Lieography" exposes the absurdity of truth-as-branding by embodying Trump's self-mythologizing voice so perfectly that readers cannot distinguish parody from reality. The humor emerges from the gap between the narrator's grandiose claims and observable reality.
-
-### Target Audience
-- Primary: Readers of political satire (age 25-65) who appreciate deadpan, character-driven humor
-- Secondary: Political junkies across the spectrum who appreciate the meta-commentary on media/truth
-- Tertiary: Collectors of Trump-related cultural artifacts (both supporters reading it "straight" and critics reading it as satire)
+This satirical "Lieography" exposes the absurdity of truth-as-branding by embodying Trump's self-mythologizing voice so perfectly that readers cannot distinguish parody from reality.
 
 ### Strategic Pillars
-1. **Voice Authenticity:** The "Trump Voice" must be indistinguishable from the real thing at a sentence level, creating uncanny valley satire
-2. **Satirical Distance:** The absurdity escalates to signal fiction (crying bailiffs, Moon feuds, buying Greenland)
-3. **Structural Comedy:** The "straight man" elements (Michelle Obama foreword, Publisher's notes) provide relief and grounding
-4. **KDP Viability:** Lean word count (8,000-15,000), scannable formatting, clear fiction signaling for legal protection
-
----
-
-## 2. Scope & Constraints
-
-- **Word Count Target:** 10,000-15,000 words (lean satirical format, not full biography)
-- **Chapter Count:** 6 chapters + front/back matter
-- **Current Status:** Draft complete (~14,000 words), needs editorial pass and De-AI-ify audit
-- **Visual Asset Budget:** Minimal (text-only for initial KDP release)
-
----
-
-## 3. Verified Research Foundations
-
-### Key Voice Sources
-- Trump rally transcripts (2015-2024)
-- *The Art of the Deal* (1987) for "Truthful Hyperbole" concept
-- Press conference transcripts for speech patterns
-- Twitter/X archive for cadence and vocabulary
-
-### Technical Foundations (to prevent hallucinations)
-- Birth: June 14, 1946, Jamaica, Queens
-- Military Academy: NYMA 1959-1964
-- Education: Fordham (2 years) → Wharton (BS Econ 1968)
-- Marriages: Ivana (1977-1992), Marla (1993-1999), Melania (2005-present)
-- Children: Don Jr., Ivanka, Eric, Tiffany, Barron
-- Key properties: Trump Tower (1983), Mar-a-Lago (1985)
-- Presidency: 45th (2017-2021), 47th (2025-present)
-
-### Ban List (Claims to Avoid)
-- Any claim that could be mistaken for genuine defamation
-- Specific private medical claims beyond public record
-- Anything that could be read as inciting violence
-- Claims about minors beyond public figures (Barron = minimal mention)
+1. **Voice Authenticity:** The "Trump Voice" must be indistinguishable from the real thing.
+2. **Satirical Distance:** Absurdity escalates to signal fiction.
+3. **Structural Comedy:** "Straight man" elements provide relief.
+4. **KDP Viability:** Clear fiction signaling for legal protection.
 
 ---
 
 ## 4. Operational Protocol
 
 ### When Starting a Session
-1. Read this file for project context
-2. Read TODO.md for pending tasks and current phase
-3. Check research/reviews/ for any pending persona feedback
-4. Review manuscript/chapters/ for current state
+1.  Read this file for context.
+2.  **Persona Check:** Ensure Claude has the "Unreliable Narrator" voice active.
+3.  **Continuity Check:** Read `context/FACTS_SHEET.md` (or equivalent notes).
+4.  Read `TODO.md` for pending tasks.
+5.  **Check `CLAUDE.md`** to see which modules are active.
 
-### Creating Research Briefs
-- Location: `research/[topic_name].md`
-- Format: Structured bullet points, NOT prose paragraphs
-- Include: Source, date, confidence level, relevance to satirical purpose
+### When Ending a Session (MANDATORY)
+1.  **Update Facts:** Scan the session's new output and update project notes.
+2.  **Update TODO:** Clear finished tasks, add next steps.
+3.  **Log Session:** Update the Session History below.
 
-### Quality Assurance Responsibilities
-1. Verify voice consistency against established patterns
-2. Flag any content that crosses from satire into potential defamation
-3. Conduct persona-based reviews for market viability
-4. Audit De-AI-ify compliance (banned words, passive voice)
+### De-AI-ification Protocol
+- **Vocabulary Audit:** If it sounds like a college essay ("nuanced," "complex," "however"), BURN IT.
+- **Rhythm Audit:** Ensure the "Trump Rhythm" (Short -> Short -> Long Ramble) is present.
 
 ---
 
-## 5. Current Manuscript Assessment
+## 5. Scope & Constraints
 
-### Existing Content Location
-- **Primary file:** `Trump Lieography.md` (to be migrated to `manuscript/chapters/`)
-- **Reviews:** `PERSONA_REVIEWS.md`, `ADDITIONAL_PERSONA_REVIEWS.md`, `INTERNAL_FEEDBACK_REVIEWS.md`
-- **Plan:** `MANUSCRIPT_PLAN.md`
-
-### Content Status
-| Section | Status | Notes |
-|---------|--------|-------|
-| Publisher's Note | Complete | Good satirical framing |
-| Author's Preface | Complete | Strong voice establishment |
-| Foreword (Michelle Obama) | Complete | Excellent "straight man" |
-| Ch 1: Genesis of Greatness | Complete | Good childhood mythology |
-| Ch 2: Manhattan Conquest | Complete | Strong empire-building arc |
-| Ch 3: Reality Era | Complete | Apprentice era covered |
-| Ch 4: Political Paradox Pt 1 | Complete | 2015-2019 covered |
-| Ch 5: Political Paradox Pt 2 | Complete | 2019-2024 covered |
-| Ch 6: The Restoration | Complete | 2025-2026 retrospective |
-| Hall of Mirrors | Complete | Meta-reflection |
-| Afterword/Acknowledgments | Complete | Good comedic closure |
+- **Word Count Target:** 10,000-15,000 words
+- **Chapter Count:** 6 Chapters + Front/Back Matter
+- **Timeline:** Final Polish
 
 ---
 
 ## 6. Session History
 
-### 2024-12-24: Initial Setup
-- **Actions:** Created project, initial manuscript drafts
-- **Current State:** Raw draft complete
-
-### 2024-12-25: Persona Reviews
-- **Actions:** Generated multi-persona feedback
-- **Handoffs to Claude:** Voice refinement, De-AI-ify pass
-
-### 2024-12-26: De-Polishing Audit
-- **Actions:** Removed robotic AI speech patterns
-- **Current State:** "High Velocity / Staccato" draft achieved
-
-### 2024-12-27: PDF Generation
-- **Actions:** Generated PDF output
-- **Current State:** Draft PDF available
-
-### 2026-01-06: Workflow Standardization
-- **Actions:** Migrating to new workflow template structure
-- **Current State:** Restructuring in progress
-- **Next Steps:** Full file audit, unbiased review, finalize structure
-- **Handoffs to Claude:** Final editorial pass after audit complete
-
----
-
-## 7. Review Personas for This Project
-
-| Persona | Focus | Notes |
-|---------|-------|-------|
-| Developmental Editor | Structure, pacing, voice fatigue | Watch for 18k word bloat |
-| Copy Editor | AI-isms, repetition, consistency | De-AI-ify compliance |
-| KDP Expert | Market positioning, metadata, legal | Fiction signaling critical |
-| MAGA Reader (SME 1) | Authenticity of voice | Should read as "straight" |
-| Liberal Satirist (SME 2) | Satirical bite | Should read as devastating critique |
-| Target Reader | Entertainment value, pacing | Is it funny? Is it too long? |
+### 2026-02-22: Framework Upgrade (v1.3.0)
+- **Actions:** Synchronized project with `_New_Book_Starter_Kit` v1.3.0. Created `PROJECT_IDENTITY.md` and `PROJECT_COMPENDIUM.md`. Symlinked `modules/` and `.vale/`. Updated `CLAUDE.md` and `GEMINI.md`.
+- **Current State:** Manuscript draft complete. Needs De-AI audit and migration to modular files.
+- **Next Steps:** Split `Trump Lieography.md` into modular chapter files in `manuscript/`.

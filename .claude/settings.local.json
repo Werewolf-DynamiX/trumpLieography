@@ -1,17 +1,22 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir \"C:\\\\Users\\\\toast\\\\Documents\\\\Books\\\\trumpLieography\" /b)",
-      "mcp__think-tool__sequentialthinking",
-      "Bash(dir \"C:\\\\Users\\\\toast\\\\Documents\\\\Books\\\\trumpLieography\\\\*AUDIT*\")"
+      "Edit",
+      "MultiEdit",
+      "Read",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch(domain:*)",
+      "Bash(*)",
+      "mcp__text-editor__get_text_file_contents",
+      "mcp__text-editor__edit_text_file_contents",
+      "WebFetch(domain:kdp.amazon.com)",
+      "mcp__gemini-cli__ask-gemini"
+    ],
+    "deny": [
+      "Bash(rm -rf /)*",
+      "Bash(sudo:*)"
     ]
-  },
-  "enabledMcpjsonServers": [
-    "text-editor",
-    "think-tool",
-    "wikipedia",
-    "mcp-pandoc",
-    "brave-search",
-    "mcp-for-research"
-  ]
+  }
 }
