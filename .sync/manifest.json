@@ -1,0 +1,13 @@
+{
+  "version": "1.3.0",
+  "project": "trumpLieography",
+  "last_sync": "2026-03-17",
+  "files": [
+    "CLAUDE.md",
+    "GEMINI.md",
+    "PROJECT_IDENTITY.md",
+    "PROJECT_COMPENDIUM.md",
+    "TODO.md",
+    "context/FACTS_SHEET.md"
+  ]
+}
